@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Repositorio que recopila mis proyectos académicos, implementaciones de estructuras de datos, algoritmos y ejercicios de programación desarrollados durante mi formación universitaria y práctica personal.
+Repositorio que recopila mis proyectos académicos, implementaciones de estructuras de datos, algoritmos y ejercicios de programación desarrollados durante mi formación universitaria y práctica en programacion competitiva (ICPC).
 
 ## Estructura del Repositorio
 **falta**
