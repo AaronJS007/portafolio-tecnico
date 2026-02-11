@@ -36,61 +36,28 @@ portafolio-tecnico/
 │ │   ├── kruskal.cpp
 │ │   └── prim.cpp
 │ │ 
-│ ├── Estructuras/ # Estructuras de datos. Data Structures
-│ │ ├── trees/
-│ │ │ ├── avl_tree.h # (arbol_AVL.h renombrado)
-│ │ │ ├── red_black_tree.h # (arbol_Rojo_Negro.h renombrado)
-│ │ │ ├── binary_search_tree.h # (binarySearchTree(BST).h renombrado)
-│ │ │ └── README.md
-│ │ │
-│ │ ├── advanced/
-│ │ │ ├── fenwick_tree/
-│ │ │ │ ├── fenwick_1d.cpp # (fenwick.cpp)
-│ │ │ │ ├── fenwick_2d.cpp # (fenwick2d.cpp)
-│ │ │ │ └── README.md
-│ │ │ │
-│ │ │ ├── segment_tree/
-│ │ │ │ ├── segment_tree.h
-│ │ │ │ ├── lazy_segment_tree.h # (segment_tree_lazy.h renombrado)
-│ │ │ │ └── README.md
-│ │ │ │
-│ │ │ ├── trie/
-│ │ │ │ ├── trie.h
-│ │ │ │ ├── trie_advanced.h # (trie2.h renombrado)
-│ │ │ │ └── README.md
-│ │ │ │
-│ │ │ ├── union_find.h # (union_fine.h corregido)
-│ │ │ ├── priority_queue.cpp
-│ │ │ └── README.md
-│ │ │
-│ │ └── examples/ # Ejemplos de uso
-│ │ ├── graph_examples.cpp
-│ │ ├── tree_examples.cpp
-│ │ └── advanced_examples.cpp
-│ │
-│ ├── utils/ # Utilidades
-│ │ ├── common.h
-│ │ ├── types.h
-│ │ └── helpers.cpp
-│ │
-│ ├── tests/ # Pruebas unitarias
-│ │ ├── algorithms/
-│ │ ├── data_structures/
-│ │ └── test_runner.cpp
-│ │
-│ └── docs/ # Documentación
-│ ├── algorithms/
-│ ├── data_structures/
-│ └── complexity_analysis.md
-│
-├── examples/ # Ejemplos completos
-│ ├── graph_problems/
-│ ├── competitive_programming/
-│ └── real_world_applications/
-│
-├── benchmarks/ # Benchmarks de rendimiento
-│ ├── algorithm_benchmarks.cpp
-│ └── data_structure_benchmarks.cpp
+│ └── Estructuras/ # Estructuras de datos. Data Structures
+│   ├── trees/ #Arboles.
+│   │ ├── arbol_AVL.h.h 
+│   │ ├── arbol_Rojo_Negro.h
+│   │ └── binarySearchTree(BST).h 
+│   │
+│   └── advanced/
+│     ├── fenwick_tree/
+│     │ ├── fenwick.cpp.cpp 
+│     │ └── fenwick2d.cpp 
+│     │
+│     ├── segment_tree/
+│     │ ├── segment_tree.h
+│     │ └── segment_tree_lazy.h
+│     │
+│     ├── trie/
+│     │ ├── trie.h
+│     │ └── trie2.h
+│     │
+│     ├── union_find.h
+│     └── priority_queue.cpp
+│ 
 │
 ├── .gitignore
 ├── README.md # Este archivo
@@ -107,27 +74,23 @@ portafolio-tecnico/
 
 ## Contenido Destacado
 
-### **1. Estructuras de Datos**
-Implementaciones desde cero de estructuras fundamentales:
-- **Listas Enlazadas** (Simples, Dobles, Circulares)
-- **Árboles** (Binarios, AVL, B-Trees)
-- **Grafos** (Matriz de adyacencia, Lista de adyacencia)
-- **Tablas Hash** (Diferentes métodos de resolución de colisiones)
-- **Pilas y Colas** (Implementaciones con arrays y listas)
-
-### **2. Algoritmos**
+### **1. Algoritmos**
 Implementación y análisis de algoritmos clásicos:
 - **Ordenamiento**: QuickSort, MergeSort, HeapSort
 - **Búsqueda**: Binary Search, BFS, DFS
 - **Algoritmos de Grafos**: Dijkstra, Kruskal, Prim
 - **Programación Dinámica**: Problemas clásicos resueltos
 
+### **2. Estructuras de Datos**
+Implementaciones de estructuras fundamentales:
+- **Listas Enlazadas** (Simples, Dobles)
+- **Árboles** (Binarios, AVL, B-Trees)
+- **Grafos** (Matriz de adyacencia, Lista de adyacencia)
+- **Tablas Hash** (Diferentes métodos de resolución de colisiones)# Me falta agregar
+- **Pilas y Colas**
+
 ### **3. Proyectos Universitarios**
 Proyectos desarrollados en asignaturas clave:
-- **Sistema de Gestión de Inventarios** (Java + MySQL)
-- **Simulador de Planificación de Procesos** (C++)
-- **Aplicación Web para Gestión Académica** (Python + Flask)
-- **Análisis de Datos con Pandas** (Jupyter Notebooks)
 
 ## Cómo Usar Este Repositorio
 
