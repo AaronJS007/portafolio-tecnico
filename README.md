@@ -8,47 +8,6 @@
 
 Repositorio que recopila mis proyectos académicos, implementaciones de estructuras de datos, algoritmos y ejercicios de programación desarrollados durante mi formación universitaria y práctica en programacion competitiva (ICPC).
 
-## Estructura del Repositorio
-portafolio-tecnico/
-├── algoritmos/
-│ ├── Algoritmos_Grafos/
-│ │ ├── dijkstra.cpp
-│ │ ├── floyd_warshall.cpp
-│ │ ├── kruskal.cpp
-│ │ └── prim.cpp
-│ ├── Algoritmos_teoriaNumeros/
-│ │ ├── binary_search.cpp
-│ │ └── expolog_normal.cpp
-│ ├── Busqueda/
-│ │ ├── bfs.cpp
-│ │ ├── binary_search.cpp
-│ │ └── dfs.cpp
-│ ├── Ordenamiento/
-│ │ ├── merge_sort.cpp
-│ │ └── quick_sort.cpp
-│ └── Grafos/
-│ ├── dijkstra.cpp
-│ ├── kruskal.cpp
-│ └── prim.cpp
-├── Estructuras/
-│ ├── trees/
-│ │ ├── arbol_AVL.h
-│ │ ├── arbol_Rojo_Negro.h
-│ │ └── binarySearchTree(BST).h
-│ └── advanced/
-│ ├── fenwick_tree/
-│ │ ├── fenwick.cpp
-│ │ └── fenwick2d.cpp
-│ ├── segment_tree/
-│ │ ├── segment_tree.h
-│ │ └── segment_tree_lazy.h
-│ ├── trie/
-│ │ ├── trie.h
-│ │ └── trie2.h
-│ ├── union_find.h
-│ └── priority_queue.cpp
-├── .gitignore
-└── README.md
 ## Tecnologías y Lenguajes
 
 ### **Lenguajes de Programación**
