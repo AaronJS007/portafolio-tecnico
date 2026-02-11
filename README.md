@@ -10,55 +10,46 @@ Repositorio que recopila mis proyectos académicos, implementaciones de estructu
 
 ## Estructura del Repositorio
 portafolio-tecnico/
-├── algoritmos/                     # Implementaciones de algoritmos
-│   ├── Algoritmos_Grafos/          # Algoritmos de grafos. Graph algorithms
-│   │   ├── dijkstra.cpp
-│   │   ├── floyd_warshall.cpp
-│   │   ├── kruskal.cpp
-│   │   └── prim.cpp
-│   │
-│   ├── Algoritmos_teoriaNumeros/   # Teoría de números. Number theory algorithms
-│   │   ├── binary_search.cpp
-│   │   └── expolog_normal.cpp
-│   │
-│   ├── Busqueda/                   # Algoritmos de búsqueda. Search algorithms
-│   │   ├── bfs.cpp
-│   │   ├── binary_search.cpp
-│   │   └── dfs.cpp
-│   │
-│   ├── Ordenamiento/               # Algoritmos de ordenamiento. Sorting algorithms
-│   │   ├── merge_sort.cpp
-│   │   └── quick_sort.cpp
-│   │
-│   └── Grafos/                     # Grafos. Graphs
-│       ├── dijkstra.cpp
-│       ├── kruskal.cpp
-│       └── prim.cpp
-│
-├── Estructuras/                    # Estructuras de datos. Data Structures
-│   ├── trees/                      # Arboles
-│   │   ├── arbol_AVL.h
-│   │   ├── arbol_Rojo_Negro.h
-│   │   └── binarySearchTree(BST).h
-│   │
-│   └── advanced/
-│       ├── fenwick_tree/
-│       │   ├── fenwick.cpp
-│       │   └── fenwick2d.cpp
-│       │
-│       ├── segment_tree/
-│       │   ├── segment_tree.h
-│       │   └── segment_tree_lazy.h
-│       │
-│       ├── trie/
-│       │   ├── trie.h
-│       │   └── trie2.h
-│       │
-│       ├── union_find.h
-│       └── priority_queue.cpp
-│
+portafolio-tecnico/
+├── algoritmos/
+│ ├── Algoritmos_Grafos/
+│ │ ├── dijkstra.cpp
+│ │ ├── floyd_warshall.cpp
+│ │ ├── kruskal.cpp
+│ │ └── prim.cpp
+│ ├── Algoritmos_teoriaNumeros/
+│ │ ├── binary_search.cpp
+│ │ └── expolog_normal.cpp
+│ ├── Busqueda/
+│ │ ├── bfs.cpp
+│ │ ├── binary_search.cpp
+│ │ └── dfs.cpp
+│ ├── Ordenamiento/
+│ │ ├── merge_sort.cpp
+│ │ └── quick_sort.cpp
+│ └── Grafos/
+│ ├── dijkstra.cpp
+│ ├── kruskal.cpp
+│ └── prim.cpp
+├── Estructuras/
+│ ├── trees/
+│ │ ├── arbol_AVL.h
+│ │ ├── arbol_Rojo_Negro.h
+│ │ └── binarySearchTree(BST).h
+│ └── advanced/
+│ ├── fenwick_tree/
+│ │ ├── fenwick.cpp
+│ │ └── fenwick2d.cpp
+│ ├── segment_tree/
+│ │ ├── segment_tree.h
+│ │ └── segment_tree_lazy.h
+│ ├── trie/
+│ │ ├── trie.h
+│ │ └── trie2.h
+│ ├── union_find.h
+│ └── priority_queue.cpp
 ├── .gitignore
-└── README.md                      # Este archivo
+└── README.md
 ## Tecnologías y Lenguajes
 
 ### **Lenguajes de Programación**
