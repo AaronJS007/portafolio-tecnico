@@ -9,7 +9,91 @@
 Repositorio que recopila mis proyectos académicos, implementaciones de estructuras de datos, algoritmos y ejercicios de programación desarrollados durante mi formación universitaria y práctica en programacion competitiva (ICPC).
 
 ## Estructura del Repositorio
-**falta**
+portafolio-tecnico/
+├── portafolio-tecnico/
+│ ├── algoritmos/ # Implementaciones de algoritmos
+│ │ ├── Algoritmos_Grafos/ # Algoritmos de grafos. Graph algorithms
+│ │ │ ├── dijkstra.cpp
+│ │ │ ├── floyd_warshall.cpp
+│ │ │ ├── kruskal.cpp
+│ │ │ └── prim.cpp
+│ │ │
+│ │ ├── Algoritmos_teoriaNumeros/ # Teoría de números. Number theory algorithms
+│ │ │ ├── binary_search.cpp
+│ │ │ └── expolog_normal.cpp
+│ │ │
+│ │ ├── Busqueda/ # Algoritmos de búsqueda. Search algorithms
+│ │ │ ├── bfs.cpp
+│ │ │ ├── binary_search.cpp
+│ │ │ └── dfs.cpp 
+│ │ │
+│ │ ├── Ordenamiento/ # Algoritmos de ordenamiento. Sorting algorithms
+│ │ │ ├── merge_sort.cpp # (mergeSort.cpp renombrado)
+│ │ │ └── quick_sort.cpp # (quickSort.cpp renombrado)
+│ │ │
+│ │ └── Grafos/ # Grafos. Graphs
+│ │   ├── dijistra.cpp
+│ │   ├── kruskal.cpp
+│ │   └── prim.cpp
+│ │ 
+│ ├── Estructuras/ # Estructuras de datos. Data Structures
+│ │ ├── trees/
+│ │ │ ├── avl_tree.h # (arbol_AVL.h renombrado)
+│ │ │ ├── red_black_tree.h # (arbol_Rojo_Negro.h renombrado)
+│ │ │ ├── binary_search_tree.h # (binarySearchTree(BST).h renombrado)
+│ │ │ └── README.md
+│ │ │
+│ │ ├── advanced/
+│ │ │ ├── fenwick_tree/
+│ │ │ │ ├── fenwick_1d.cpp # (fenwick.cpp)
+│ │ │ │ ├── fenwick_2d.cpp # (fenwick2d.cpp)
+│ │ │ │ └── README.md
+│ │ │ │
+│ │ │ ├── segment_tree/
+│ │ │ │ ├── segment_tree.h
+│ │ │ │ ├── lazy_segment_tree.h # (segment_tree_lazy.h renombrado)
+│ │ │ │ └── README.md
+│ │ │ │
+│ │ │ ├── trie/
+│ │ │ │ ├── trie.h
+│ │ │ │ ├── trie_advanced.h # (trie2.h renombrado)
+│ │ │ │ └── README.md
+│ │ │ │
+│ │ │ ├── union_find.h # (union_fine.h corregido)
+│ │ │ ├── priority_queue.cpp
+│ │ │ └── README.md
+│ │ │
+│ │ └── examples/ # Ejemplos de uso
+│ │ ├── graph_examples.cpp
+│ │ ├── tree_examples.cpp
+│ │ └── advanced_examples.cpp
+│ │
+│ ├── utils/ # Utilidades
+│ │ ├── common.h
+│ │ ├── types.h
+│ │ └── helpers.cpp
+│ │
+│ ├── tests/ # Pruebas unitarias
+│ │ ├── algorithms/
+│ │ ├── data_structures/
+│ │ └── test_runner.cpp
+│ │
+│ └── docs/ # Documentación
+│ ├── algorithms/
+│ ├── data_structures/
+│ └── complexity_analysis.md
+│
+├── examples/ # Ejemplos completos
+│ ├── graph_problems/
+│ ├── competitive_programming/
+│ └── real_world_applications/
+│
+├── benchmarks/ # Benchmarks de rendimiento
+│ ├── algorithm_benchmarks.cpp
+│ └── data_structure_benchmarks.cpp
+│
+├── .gitignore
+├── README.md # Este archivo
 ## Tecnologías y Lenguajes
 
 ### **Lenguajes de Programación**
