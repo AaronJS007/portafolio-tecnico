@@ -10,7 +10,6 @@ Repositorio que recopila mis proyectos académicos, implementaciones de estructu
 
 ## Estructura del Repositorio
 portafolio-tecnico/
-portafolio-tecnico/
 ├── algoritmos/
 │ ├── Algoritmos_Grafos/
 │ │ ├── dijkstra.cpp
